@@ -2,7 +2,7 @@
  {
   "input": "Have you ever wondered how it's possible to scratch a CD or a DVD and still have it play back whatever it's storing?",
   "model": "nmt",
-  "translatedText": "Вы когда-нибудь задумывались, как можно поцарапать компакт-диск или DVD-диск и при этом воспроизвести все, что на нем хранится?",
+  "translatedText": "Вы когда-нибудь задумывались, как можно поцарапать CD или DVD-диск и все равно воспроизвести все, что на нем хранится?",
   "time_range": [
    3.62,
    10.1
@@ -11,7 +11,7 @@
  {
   "input": "The scratch really does affect the 1s and 0s on the disk, so it reads off different data from what was stored, but unless it's really scratched up, the bits it reads off are decoded into precisely the same file that was encoded onto it, a bit for bit copy, despite all those errors.",
   "model": "nmt",
-  "translatedText": "Царапина действительно влияет на 1 и 0 на диске, поэтому он считывает данные, отличные от того, что было сохранено, но если он действительно не поцарапан, считанные биты декодируются точно в тот же файл, который был закодирован на нем. побитовая копия, несмотря на все эти ошибки.",
+  "translatedText": "Царапина действительно влияет на единицы и нули на диске, из-за чего считываются данные, отличные от сохраненных, но если он поцарапан не очень сильно, считанные биты декодируются в точно такой же файл, как и тот, что был закодирован, побитовая копия, несмотря на все эти ошибки.",
   "time_range": [
    10.9,
    27.44
@@ -20,7 +20,7 @@
  {
   "input": "There is a whole pile of mathematical cleverness that allows us to store data, and just as importantly to transmit data, in a way that's resilient to errors.",
   "model": "nmt",
-  "translatedText": "Существует целый ряд математических хитростей, которые позволяют нам хранить данные и, что не менее важно, передавать их устойчивым к ошибкам способом.",
+  "translatedText": "Существует целый ряд математических хитростей, которые позволяют нам хранить и, что не менее важно, передавать данные устойчивыми к ошибкам способами.",
   "time_range": [
    27.44,
    36.2
@@ -29,7 +29,7 @@
  {
   "input": "Well, okay, actually it doesn't take that much cleverness to come up with a way to do this.",
   "model": "nmt",
-  "translatedText": "Ну да ладно, на самом деле не нужно так уж много ума, чтобы придумать способ сделать это.",
+  "translatedText": "Ну ладно, на самом деле нужно не так уж много хитрости, чтобы придумать простейший способ сделать это.",
   "time_range": [
    36.2,
    40.88
@@ -47,7 +47,7 @@
  {
   "input": "And a simple strategy to correct any bit that gets flipped would be to store three copies of each bit.",
   "model": "nmt",
-  "translatedText": "А простой стратегией исправления любого перевернутого бита было бы сохранение трех копий каждого бита.",
+  "translatedText": "И простой стратегией исправления любого перевернутого бита было бы сохранение трех копий каждого бита.",
   "time_range": [
    50.68,
    56.0
@@ -56,7 +56,7 @@
  {
   "input": "Then the machine reading this file could compare these three copies and always take the best 2 out of 3 whenever there's a discrepancy.",
   "model": "nmt",
-  "translatedText": "Тогда машина, читающая этот файл, сможет сравнить эти три копии и всегда брать лучшие 2 из 3, если есть несоответствие.",
+  "translatedText": "Тогда машина, читающая этот файл, сможет сравнить эти три копии и всегда брать лучшие две из трех, если есть несоответствие.",
   "time_range": [
    57.58,
    64.06
@@ -65,7 +65,7 @@
  {
   "input": "But what that means is using two thirds of your space for redundancy.",
   "model": "nmt",
-  "translatedText": "Но это означает использование двух третей вашего пространства для резервирования.",
+  "translatedText": "Но это означает использование двух третьих пространства для резервирования.",
   "time_range": [
    67.16,
    70.86
@@ -74,7 +74,7 @@
  {
   "input": "And even then, for all of that space given up, there's no strong guarantee about what happens if more than one bit gets flipped.",
   "model": "nmt",
-  "translatedText": "И даже в этом случае, несмотря на все это отведенное пространство, нет надежной гарантии того, что произойдет, если будет перевернуто более одного бита.",
+  "translatedText": "И даже в этом случае, несмотря на все это зарезервированное пространство, нет полной уверенности в том, что произойдет, если будет перевернуто более одного бита.",
   "time_range": [
    71.48,
    77.24
@@ -83,7 +83,7 @@
  {
   "input": "The much more interesting question is how to make it so that errors can be corrected while giving up as little space as possible.",
   "model": "nmt",
-  "translatedText": "Гораздо более интересный вопрос — как сделать так, чтобы можно было исправлять ошибки, занимая при этом как можно меньше места.",
+  "translatedText": "Гораздо более интересный вопрос — как сделать так, чтобы можно было исправлять ошибки, используя при этом как можно меньше места.",
   "time_range": [
    77.98,
    84.02
@@ -92,7 +92,7 @@
  {
   "input": "For example, using the method you'll learn about this video, you could store your data in 256-bit blocks, where each block uses 9 bits, 9!",
   "model": "nmt",
-  "translatedText": "Например, используя метод, который вы узнаете из этого видео, вы можете хранить свои данные в 256-битных блоках, где каждый блок использует 9 бит, 9!",
+  "translatedText": "Например, используя метод, который вы узнаете из этого видео, вы сможете хранить свои данные в 256-битных блоках, где каждый блок использует девять бит, девять!",
   "time_range": [
    84.52000000000001,
    93.36
@@ -101,7 +101,7 @@
  {
   "input": "to act as a kind of redundancy, and the other 247 bits are free to carry whatever meaningful message or data you want.",
   "model": "nmt",
-  "translatedText": "действовать как своего рода избыточность, а остальные 247 бит могут свободно переносить любое значимое сообщение или данные, которые вы хотите.",
+  "translatedText": "в качестве своего рода избыточности, а остальные 247 бит могут переносить любое значимое сообщение или данные, которые вы хотите.",
   "time_range": [
    93.76,
    100.3
@@ -110,7 +110,7 @@
  {
   "input": "And it will still be the case that if any bit gets flipped here, just by looking at this block and nothing more, a machine will be able to identify that there was an error and precisely where it was so that it knows how to correct it.",
   "model": "nmt",
-  "translatedText": "И все равно будет так, что если какой-либо бит здесь будет перевернут, просто взглянув на этот блок и не более того, машина сможет определить, что произошла ошибка и точно где она была, чтобы она знала, как ее исправить.",
+  "translatedText": "И все равно получится так, что если какой-либо бит будет перевернут, просто взглянув на этот блок и не более того, машина сможет определить, что ошибка произошла и где точно она произошла, из-за чего машина будет знать как ее исправить.",
   "time_range": [
    100.9,
    112.66
@@ -128,7 +128,7 @@
  {
   "input": "And for this particular scheme, if two bits get flipped, the machine will at least be able to detect that there were two errors, though it won't know how to fix them.",
   "model": "nmt",
-  "translatedText": "И для этой конкретной схемы, если два бита будут перевернуты, машина, по крайней мере, сможет обнаружить две ошибки, хотя и не будет знать, как их исправить.",
+  "translatedText": "И, для этой конкретной схемы, если два бита будут перевернуты, машина, по крайней мере, сможет обнаружить, что было две ошибки, хоть и не будет знать, как их исправить.",
   "time_range": [
    115.44,
    122.86
@@ -146,7 +146,7 @@
  {
   "input": "Methods that let you correct errors like this are known, reasonably enough, as error correction codes.",
   "model": "nmt",
-  "translatedText": "Методы, позволяющие исправлять подобные ошибки, вполне обоснованно называются кодами исправления ошибок.",
+  "translatedText": "Методы, позволяющие исправлять подобные ошибки, называются, вполне логично, корректирующими кодами.",
   "time_range": [
    127.86,
    132.9
@@ -155,7 +155,7 @@
  {
   "input": "For the better part of the last century, this field has been a really rich source of surprisingly deep math that gets incorporated into devices we use every day.",
   "model": "nmt",
-  "translatedText": "На протяжении большей части прошлого столетия эта область была действительно богатым источником удивительно глубокой математики, которая внедрялась в устройства, которые мы используем каждый день.",
+  "translatedText": "На протяжении большей части прошлого столетия эта область была очень богатым источником удивительно глубокой математики, которая внедрялась в устройства, которые мы используем каждый день.",
   "time_range": [
    133.66,
    141.94
@@ -164,7 +164,7 @@
  {
   "input": "The goal here is to give you a very thorough understanding of one of the earliest examples, known as a Hamming code.",
   "model": "nmt",
-  "translatedText": "Цель здесь — дать вам очень полное представление об одном из самых ранних примеров, известном как код Хэмминга.",
+  "translatedText": "Цель видео — дать вам очень подробное представление об одном из самых ранних примеров, известном как код Хэмминга.",
   "time_range": [
    142.84,
    148.66
